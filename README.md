@@ -9,8 +9,8 @@
 <br/>
 
 <div align="center">
-  <a href="mailto:athishay@agrileaf.in">
-    <img src="https://img.shields.io/badge/athishay%40agrileaf.in-0d1117?style=flat-square&logo=gmail&logoColor=00bcd4" alt="Email"/>
+  <a href="mailto:agrileaf.sanjay@gmail.com">
+    <img src="https://img.shields.io/badge/sanjay%40-0d1117?style=flat-square&logo=gmail&logoColor=00bcd4" alt="Email"/>
   </a>
   &nbsp;
   <img src="https://img.shields.io/badge/India-0d1117?style=flat-square&logo=googlemaps&logoColor=00bcd4" alt="Location"/>
@@ -24,7 +24,7 @@
 
 ## About Me
 
-Engineer at **Agrileaf** — building real-time computer vision systems that bring intelligent inspection to agriculture and industrial manufacturing. I design end-to-end pipelines from model training to hardware deployment: YOLO models running on Raspberry Pi, talking to actuators and sensors, backed by full-stack Django + React dashboards for operations teams.
+Software Developer at **Agrileaf** — building real-time computer vision systems that bring intelligent inspection to agriculture and industrial manufacturing. I design end-to-end pipelines from model training to hardware deployment: YOLO models running on Raspberry Pi, talking to actuators and sensors, backed by full-stack Django + React dashboards for operations teams.
 
 ---
 
@@ -46,6 +46,9 @@ Engineer at **Agrileaf** — building real-time computer vision systems that bri
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A?style=for-the-badge&logo=celery&logoColor=white)
+![Ant Design](https://img.shields.io/badge/Ant%20Design-0170FE?style=for-the-badge&logo=antdesign&logoColor=white)
+![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=for-the-badge&logo=reactquery&logoColor=white)
+![Zustand](https://img.shields.io/badge/Zustand-443E38?style=for-the-badge&logoColor=white)
 
 **Infrastructure & Hardware**
 
@@ -108,24 +111,40 @@ Engineer at **Agrileaf** — building real-time computer vision systems that bri
   <tr>
     <td valign="top" width="50%">
       <h3>📦 Inventory Management</h3>
-      <p>Full-stack inventory platform with RBAC (Admin / Manager / Requester), multi-warehouse tracking, min/max stock threshold alerts, PDF + CSV report generation, and Celery background tasks. Dockerized for on-premise LAN or cloud deployment.</p>
+      <p>Full-stack inventory platform with RBAC (Admin / Manager / Requester), multi-warehouse tracking, product movement records (stock in / out / transfer), Sort & Pack batch processing, bulk CSV/XLSX import, min/max stock threshold alerts, and Celery background tasks. Dockerized for on-premise LAN or cloud deployment.</p>
       <p>
         <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2018-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
         <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       </p>
     </td>
     <td valign="top" width="50%">
       <h3>💳 Payment Approval Workflow</h3>
-      <p>3-level approval engine (Dept → Finance → Superadmin) with invoice management, GST line items, attachment uploads, and Celery-based escalation timers. Supports priority flags, Pay-By-Date deadlines, and bidirectional cloud sync with DigitalOcean every 10 minutes.</p>
+      <p>3-level approval engine (Dept → Finance → Superadmin) with invoice management, GST line items, Reimbursements payment type, invoice comparison (PR vs invoice line-item matching), partial/full payment slip uploads, bulk CSV/XLSX import, full PostgreSQL backup & restore, priority flags, Pay-By-Date deadlines, and bidirectional cloud sync with DigitalOcean every 10 minutes.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
         <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
         <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
       </p>
     </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>📋 Order Management System</h3>
+      <p>Full-stack order lifecycle platform with RBAC (Admin / Manager / Requester). Orders flow through warehouse assignment, packing, dispatch, and delivery confirmation — with per-line-item status driving the overall order state machine. Dockerized for deployment.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%204.2-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      </p>
+    </td>
+    <td valign="top" width="50%"></td>
   </tr>
 </table>
 
@@ -146,8 +165,8 @@ Engineer at **Agrileaf** — building real-time computer vision systems that bri
 ---
 
 <div align="center">
-  <a href="mailto:athishay@agrileaf.in">
-    <img src="https://img.shields.io/badge/Get%20in%20Touch-athishay%40agrileaf.in-0d1117?style=for-the-badge&logo=gmail&logoColor=00bcd4" alt="Email"/>
+  <a href="mailto:agrileaf.sanjay@gmail.com">
+    <img src="https://img.shields.io/badge/Get%20in%20Touch-sanjay%40agrileaf.in-0d1117?style=for-the-badge&logo=gmail&logoColor=00bcd4" alt="Email"/>
   </a>
 </div>
 
