@@ -57,6 +57,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
 ![Arduino](https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
 
 ---
 
@@ -122,10 +123,11 @@ Software Developer at **Agrileaf** — building real-time computer vision system
     </td>
     <td valign="top" width="50%">
       <h3>💳 Payment Approval Workflow</h3>
-      <p>3-level approval engine (Dept → Finance → Superadmin) with invoice management, GST line items, Reimbursements payment type, invoice comparison (PR vs invoice line-item matching), partial/full payment slip uploads, bulk CSV/XLSX import, full PostgreSQL backup & restore, priority flags, Pay-By-Date deadlines, and bidirectional cloud sync with DigitalOcean every 10 minutes.</p>
+      <p>3-level approval engine (Dept L1 → Finance L2 → Superadmin L3) with invoice management, GST line items, Reimbursements payment type, invoice comparison (PR vs invoice line-item matching) with auto-split sub-requests for partial invoice coverage, TDS deduction & debit/credit notes on payments, bulk CSV/XLSX import, full PostgreSQL backup & restore, priority flags, Pay-By-Date deadlines, and bidirectional cloud sync with DigitalOcean every 10 minutes.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
         <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
         <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
         <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
@@ -144,7 +146,17 @@ Software Developer at **Agrileaf** — building real-time computer vision system
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       </p>
     </td>
-    <td valign="top" width="50%"></td>
+    <td valign="top" width="50%">
+      <h3>🗂️ ProjectHub</h3>
+      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban boards, subtasks, on-hold tracking, and bulk CSV/XLSX import. Reporting suite covers burn-down, velocity, and resource utilization with CSV/PDF export, backed by a full audit trail and CI/CD-gated deploys.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
+        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+      </p>
+    </td>
   </tr>
 </table>
 
