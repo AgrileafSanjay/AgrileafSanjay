@@ -77,18 +77,6 @@ Software Developer at **Agrileaf** — building real-time computer vision system
       </p>
     </td>
     <td valign="top" width="50%">
-      <h3>🔍 OBB Plate Defect Detection</h3>
-      <p>Oriented Bounding Box model (YOLOv8-OBB + YOLO26) for detecting defects on manufactured plates. 5-class detection: <code>black_spot</code>, <code>dark_spot</code>, <code>fold</code>, <code>damage</code>, <code>plate</code>. OBB outperforms standard AABB on rotated and angled defect regions in production line imagery.</p>
-      <p>
-        <img src="https://img.shields.io/badge/YOLOv8--OBB-111F68?style=flat-square" alt="YOLOv8-OBB"/>
-        <img src="https://img.shields.io/badge/YOLO26-111F68?style=flat-square" alt="YOLO26"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
       <h3>⚙️ Plate Sorting System</h3>
       <p>End-to-end automated sorting pipeline — YOLO11 5-class defect detection drives a physical rotary station with laser sensors, stepper motors, and relay-controlled actuators via Arduino. Tracks and routes plates by defect class at production throughput.</p>
       <p>
