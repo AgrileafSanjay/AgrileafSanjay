@@ -20,6 +20,12 @@
 
 <br/>
 
+<div align="center">
+
+[About](#about-me) · [Projects](#-featured-projects) · [Tech Stack](#-tech-stack) · [Stats](#-github-stats) · [Contact](#-get-in-touch)
+
+</div>
+
 ---
 
 ## About Me
@@ -28,7 +34,109 @@ Software Developer at **Agrileaf** — building real-time computer vision system
 
 ---
 
-## Tech Stack
+## 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🌾 Arecanut Sorting System</h3>
+      <p>Real-time arecanut quality grading using YOLO11 segmentation. Classifies nuts into 4 grades — <code>Good</code>, <code>Koka</code>, <code>Cheppu</code>, <code>Patora</code> — and triggers physical actuators over serial. Flask frame-streaming server handles RPi camera feeds. Custom dark-theme UI with live video + count dashboard.</p>
+      <p>
+        <img src="https://img.shields.io/badge/YOLO11_Seg-111F68?style=flat-square" alt="YOLO11"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+        <img src="https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="RPi"/>
+        <img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
+        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3>⚙️ Plate Sorting System</h3>
+      <p>End-to-end automated sorting pipeline — YOLO11 5-class defect detection drives a physical rotary station with laser sensors, stepper motors, and relay-controlled actuators via Arduino. Tracks and routes plates by defect class at production throughput.</p>
+      <p>
+        <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"/>
+        <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino"/>
+        <img src="https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="RPi"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>👁️ Camera OCR System</h3>
+      <p>Live camera OCR pipeline: YOLO segmentation isolates text regions, then PaddleOCR / EasyOCR extracts characters. 85% confidence threshold, custom charset validation (A–Z, 0–9, ₹), Levenshtein distance correction. Real-time CustomTkinter UI with GPU acceleration.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PaddleOCR-0062B3?style=flat-square" alt="PaddleOCR"/>
+        <img src="https://img.shields.io/badge/EasyOCR-333?style=flat-square" alt="EasyOCR"/>
+        <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square" alt="YOLO"/>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3>📦 Inventory Management</h3>
+      <p>Full-stack inventory platform with RBAC (Admin / Manager / Requester), multi-warehouse tracking, product movement records (stock in / out / transfer), Sort & Pack batch processing, bulk CSV/XLSX import, min/max stock threshold alerts, and Celery background tasks. Dockerized for on-premise LAN or cloud deployment.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2018-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>💳 Payment Approval Workflow</h3>
+      <p>3-level approval engine (Dept L1 → Finance L2 → Superadmin L3) with invoice management, GST line items, Reimbursements payment type, invoice comparison (PR vs invoice line-item matching) with auto-split sub-requests for partial invoice coverage, TDS deduction & debit/credit notes on payments, bulk CSV/XLSX import, full PostgreSQL backup & restore, priority flags, Pay-By-Date deadlines, and bidirectional cloud sync with DigitalOcean every 10 minutes.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
+        <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3>📋 Order Management System</h3>
+      <p>Full-stack order lifecycle platform with RBAC (Admin / Manager / Requester). Orders flow through warehouse assignment, packing, dispatch, and delivery confirmation — with per-line-item status driving the overall order state machine. Dockerized for deployment.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%204.2-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🗂️ ProjectHub</h3>
+      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban + list views, task dependencies, file attachments, threaded comments with <code>@mentions</code>, and a Knowledge Base. Reporting suite covers burn-down, velocity, resource utilization, and Gantt view with CSV/PDF export, backed by a full audit trail, Ctrl+K global search, and CI/CD-gated deploys with Trivy vulnerability scanning.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
+        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+      </p>
+    </td>
+    <td valign="top" width="50%">
+      <h3>🧾 Billing System</h3>
+      <p>Full-stack billing & invoicing platform — Django 5 + DRF backend, React 19 + TypeScript + Ant Design frontend. Manages Catalog, Customers, and customer-specific SKU pricing/packaging Mappings; drives Orders through EVD + RFID declaration fields; builds Invoices from Mapping data with per-invoice tariff codes, exported to <code>.xlsx</code> invoice/packing-list templates plus EVD + RFID <code>.docx</code> documents.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🛠️ Tech Stack
 
 **ML & Computer Vision**
 
@@ -61,109 +169,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
 
 ---
 
-## Featured Projects
-
-<table>
-  <tr>
-    <td valign="top" width="50%">
-      <h3>🌾 Arecanut Sorting System</h3>
-      <p>Real-time arecanut quality grading using YOLO11 segmentation. Classifies nuts into 4 grades — <code>Good</code>, <code>Koka</code>, <code>Cheppu</code>, <code>Patora</code> — and triggers physical actuators over serial. Flask frame-streaming server handles RPi camera feeds. Custom dark-theme UI with live video + count dashboard.</p>
-      <p>
-        <img src="https://img.shields.io/badge/YOLO11_Seg-111F68?style=flat-square" alt="YOLO11"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-        <img src="https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="RPi"/>
-        <img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV"/>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3>⚙️ Plate Sorting System</h3>
-      <p>End-to-end automated sorting pipeline — YOLO11 5-class defect detection drives a physical rotary station with laser sensors, stepper motors, and relay-controlled actuators via Arduino. Tracks and routes plates by defect class at production throughput.</p>
-      <p>
-        <img src="https://img.shields.io/badge/YOLO11-111F68?style=flat-square" alt="YOLO11"/>
-        <img src="https://img.shields.io/badge/Arduino-00979D?style=flat-square&logo=arduino&logoColor=white" alt="Arduino"/>
-        <img src="https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberry-pi&logoColor=white" alt="RPi"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3>👁️ Camera OCR System</h3>
-      <p>Live camera OCR pipeline: YOLO segmentation isolates text regions, then PaddleOCR / EasyOCR extracts characters. 85% confidence threshold, custom charset validation (A–Z, 0–9, ₹), Levenshtein distance correction. Real-time CustomTkinter UI with GPU acceleration.</p>
-      <p>
-        <img src="https://img.shields.io/badge/PaddleOCR-0062B3?style=flat-square" alt="PaddleOCR"/>
-        <img src="https://img.shields.io/badge/EasyOCR-333?style=flat-square" alt="EasyOCR"/>
-        <img src="https://img.shields.io/badge/YOLO-111F68?style=flat-square" alt="YOLO"/>
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <h3>📦 Inventory Management</h3>
-      <p>Full-stack inventory platform with RBAC (Admin / Manager / Requester), multi-warehouse tracking, product movement records (stock in / out / transfer), Sort & Pack batch processing, bulk CSV/XLSX import, min/max stock threshold alerts, and Celery background tasks. Dockerized for on-premise LAN or cloud deployment.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/React%2018-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3>💳 Payment Approval Workflow</h3>
-      <p>3-level approval engine (Dept L1 → Finance L2 → Superadmin L3) with invoice management, GST line items, Reimbursements payment type, invoice comparison (PR vs invoice line-item matching) with auto-split sub-requests for partial invoice coverage, TDS deduction & debit/credit notes on payments, bulk CSV/XLSX import, full PostgreSQL backup & restore, priority flags, Pay-By-Date deadlines, and bidirectional cloud sync with DigitalOcean every 10 minutes.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
-        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
-        <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <h3>📋 Order Management System</h3>
-      <p>Full-stack order lifecycle platform with RBAC (Admin / Manager / Requester). Orders flow through warehouse assignment, packing, dispatch, and delivery confirmation — with per-line-item status driving the overall order state machine. Dockerized for deployment.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Django%204.2-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      </p>
-    </td>
-    <td valign="top" width="50%">
-      <h3>🗂️ ProjectHub</h3>
-      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban + list views, task dependencies, file attachments, threaded comments with <code>@mentions</code>, and a Knowledge Base. Reporting suite covers burn-down, velocity, resource utilization, and Gantt view with CSV/PDF export, backed by a full audit trail, Ctrl+K global search, and CI/CD-gated deploys with Trivy vulnerability scanning.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
-        <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
-        <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td valign="top" width="50%">
-      <h3>🧾 Billing System</h3>
-      <p>Full-stack billing & invoicing platform — Django 5 + DRF backend, React 19 + TypeScript + Ant Design frontend. Manages Catalog, Customers, and customer-specific SKU pricing/packaging Mappings; drives Orders through EVD + RFID declaration fields; builds Invoices from Mapping data with per-invoice tariff codes, exported to <code>.xlsx</code> invoice/packing-list templates plus EVD + RFID <code>.docx</code> documents.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
-        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
-        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
-        <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-      </p>
-    </td>
-  </tr>
-</table>
-
----
-
-## GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=AgrileafSanjay&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=00bcd4&icon_color=00bcd4" alt="GitHub Stats"/>
@@ -176,6 +182,8 @@ Software Developer at **Agrileaf** — building real-time computer vision system
 </div>
 
 ---
+
+## 📬 Get in Touch
 
 <div align="center">
   <a href="mailto:agrileaf.sanjay@gmail.com">
