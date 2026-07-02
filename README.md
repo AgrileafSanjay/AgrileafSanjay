@@ -148,13 +148,26 @@ Software Developer at **Agrileaf** — building real-time computer vision system
     </td>
     <td valign="top" width="50%">
       <h3>🗂️ ProjectHub</h3>
-      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban boards, subtasks, on-hold tracking, and bulk CSV/XLSX import. Reporting suite covers burn-down, velocity, and resource utilization with CSV/PDF export, backed by a full audit trail and CI/CD-gated deploys.</p>
+      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban + list views, task dependencies, file attachments, threaded comments with <code>@mentions</code>, and a Knowledge Base. Reporting suite covers burn-down, velocity, resource utilization, and Gantt view with CSV/PDF export, backed by a full audit trail, Ctrl+K global search, and CI/CD-gated deploys with Trivy vulnerability scanning.</p>
       <p>
         <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
         <img src="https://img.shields.io/badge/Ant%20Design-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
         <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>
         <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions"/>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>🧾 Billing System</h3>
+      <p>Full-stack billing & invoicing platform — Django 5 + DRF backend, React 19 + TypeScript + Ant Design frontend. Manages Catalog, Customers, and customer-specific SKU pricing/packaging Mappings; drives Orders through EVD + RFID declaration fields; builds Invoices from Mapping data with per-invoice tariff codes, exported to <code>.xlsx</code> invoice/packing-list templates plus EVD + RFID <code>.docx</code> documents.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/Ant%20Design%206-0170FE?style=flat-square&logo=antdesign&logoColor=white" alt="Ant Design"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
       </p>
     </td>
   </tr>
