@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Sanjay%20%7C%20Agrileaf&fontSize=52&fontColor=00bcd4&animation=fadeIn&fontAlignY=40&desc=Computer%20Vision%20%C2%B7%20AgriTech%20%C2%B7%20Industrial%20Automation&descAlignY=60&descSize=20&descColor=8b949e" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0d1117&height=200&section=header&text=Sanjay%20Joshi&fontSize=52&fontColor=00bcd4&animation=fadeIn&fontAlignY=40&desc=Computer%20Vision%20%C2%B7%20AgriTech%20%C2%B7%20Industrial%20Automation&descAlignY=60&descSize=20&descColor=8b949e" />
 </div>
 
 <div align="center">
@@ -9,11 +9,9 @@
 <br/>
 
 <div align="center">
-  <a href="mailto:agrileaf.sanjay@gmail.com">
-    <img src="https://img.shields.io/badge/sanjay%40-0d1117?style=flat-square&logo=gmail&logoColor=00bcd4" alt="Email"/>
+  <a href="mailto:sanjay.joshi@agrileaf.in">
+    <img src="https://img.shields.io/badge/sanjay.joshi%40agrileaf.in-0d1117?style=flat-square&logo=gmail&logoColor=00bcd4" alt="Email"/>
   </a>
-  &nbsp;
-  <img src="https://img.shields.io/badge/India-0d1117?style=flat-square&logo=googlemaps&logoColor=00bcd4" alt="Location"/>
   &nbsp;
   <img src="https://img.shields.io/badge/AgriTech-0d1117?style=flat-square&logo=leaflet&logoColor=00bcd4" alt="Domain"/>
 </div>
@@ -30,7 +28,7 @@
 
 ## About Me
 
-Software Developer at **Agrileaf** — building real-time computer vision systems that bring intelligent inspection to agriculture and industrial manufacturing. I design end-to-end pipelines from model training to hardware deployment: YOLO models running on Raspberry Pi, talking to actuators and sensors, backed by full-stack Django + React dashboards for operations teams. Recent work includes YOLO11 fungus detection on agri produce, ArUco-calibrated dimension inspection, and a shared SSO identity layer connecting Agrileaf's internal business apps (billing, purchase &amp; payment, HR, inventory, projects).
+Software Developer at **Agrileaf** — building real-time computer vision systems that bring intelligent inspection to agriculture and industrial manufacturing. I design end-to-end pipelines from model training to hardware deployment: YOLO models running on Raspberry Pi, talking to actuators and sensors, backed by full-stack Django + React dashboards for operations teams. Recent work includes YOLO11 fungus detection on agri produce, ArUco-calibrated dimension inspection, and a shared SSO identity layer connecting Agrileaf's internal business apps (billing, purchase &amp; payment, HR, inventory, projects), plus a QR marketing platform that turns Agrileaf packaging into trackable restaurant offers.
 
 ---
 
@@ -73,7 +71,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
     </td>
     <td valign="top" width="50%">
       <h3>📦 Inventory Management</h3>
-      <p>Full-stack inventory platform with RBAC (Admin / Manager / Requester), multi-warehouse tracking, product movement records (stock in / out / transfer), Sort & Pack batch processing, bulk CSV/XLSX import, min/max stock threshold alerts, and Celery background tasks. Dockerized for on-premise LAN or cloud deployment.</p>
+      <p>Full-stack inventory platform with RBAC (Admin / Manager / Requester), multi-warehouse tracking, product movement records (stock in / out / transfer), Sort & Pack batch processing, bulk CSV/XLSX import, min/max stock threshold alerts, and Celery background tasks. Dockerized for deployment.</p>
       <p>
         <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2018-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
@@ -86,7 +84,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
   <tr>
     <td valign="top" width="50%">
       <h3>💳 Purchase &amp; Payment Approval</h3>
-      <p>Approval engine for Purchase, Payment and Reimbursement Requests routed through admin-configured <b>N-level approval workflows</b> (one per department per module), replacing the legacy fixed L1 → L2 → L3 chain. Purchase Requests with revision chains, invoice management with GST line items and attachments, PR-vs-invoice comparison with auto-split sub-requests, optional digital invoices on reimbursements, TDS &amp; debit/credit notes, vendor-based scheduling, bulk CSV/XLSX import, PostgreSQL backup &amp; restore, and Agrileaf SSO sign-in. Shipped through 68 versioned releases.</p>
+      <p>Approval engine for Purchase, Payment and Reimbursement Requests routed through admin-configured <b>N-level approval workflows</b>. Purchase Requests with revision chains, invoice management with GST line items and attachments, PR-vs-invoice comparison with auto-split sub-requests, optional digital invoices on reimbursements, TDS &amp; debit/credit notes, vendor-based scheduling, bulk CSV/XLSX import, PostgreSQL backup &amp; restore, OCR-assisted invoice parsing, and single sign-on. Shipped through 68 versioned releases.</p>
       <p>
         <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
@@ -111,7 +109,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
   <tr>
     <td valign="top" width="50%">
       <h3>🗂️ ProjectHub</h3>
-      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban + list views, task dependencies, file attachments, threaded comments with <code>@mentions</code>, and a Knowledge Base. Reporting suite covers burn-down, velocity, resource utilization, and Gantt view with CSV/PDF export, backed by a full audit trail, Ctrl+K global search, recurring tasks with anchored schedules &amp; catch-up, Celery-driven reminders, IST-aware dates, and CI/CD-gated deploys with Trivy vulnerability scanning.</p>
+      <p>Full-stack project & task management platform with department-scoped RBAC (Admin → Dept Head → Team Lead → Member), drag-and-drop Kanban with per-column paging + server-paged list views, task dependencies, file attachments, threaded comments with <code>@mentions</code>, and a Knowledge Base with Meeting Minutes (MOM) entries. Reporting suite covers burn-down, velocity, resource utilization, and Gantt view with CSV/PDF export, backed by a full audit trail, Ctrl+K global search, recurring tasks with anchored schedules &amp; catch-up, Celery-driven reminders, and CI/CD-gated deploys.</p>
       <p>
         <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
@@ -122,7 +120,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
     </td>
     <td valign="top" width="50%">
       <h3>🧾 Billing System</h3>
-      <p>Full-stack billing & invoicing platform — Django 5 + DRF backend, React 19 + TypeScript + Ant Design frontend. Manages Catalog, Customers, and customer-specific SKU pricing/packaging Mappings; drives Orders through EVD + RFID declaration fields; builds Invoices from Mapping data with per-invoice tariff codes, exported to <code>.xlsx</code> invoice/packing-list templates plus EVD + RFID <code>.docx</code> documents. Agrileaf SSO sign-in, audit log, and GHCR-based CI/CD deploys.</p>
+      <p>Full-stack billing & invoicing platform — Django 5 + DRF backend, React 19 + TypeScript + Ant Design frontend. Manages Catalog, Customers, and customer-specific SKU pricing/packaging Mappings; drives Orders through declaration fields; builds Invoices from Mapping data, exported to <code>.xlsx</code> invoice/packing-list templates plus <code>.docx</code> declaration documents. Single sign-on, audit log, and CI/CD deploys.</p>
       <p>
         <img src="https://img.shields.io/badge/Django%205-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/React%2019-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
@@ -135,7 +133,7 @@ Software Developer at **Agrileaf** — building real-time computer vision system
   <tr>
     <td valign="top" width="50%">
       <h3>🔐 Agrileaf SSO &amp; User Console</h3>
-      <p>Central identity service for all Agrileaf apps (Billing, Inventory, ProjectHub, Purchase Payment). One sign-in for users; one admin console for users, applications, access grants and audit trail. Opaque bearer session tokens validated by every delegating app, 12-hour absolute session cap, instant sign-out push to every open tab over WebSockets, invitation/activation &amp; self-service reset flows, forced password change, rate-limited lockout-protected sign-in, and a responsive console for phone → desktop.</p>
+      <p>Central identity service for Agrileaf's internal apps. One sign-in for users; one admin console for users, applications, access grants and audit trail. Real-time sign-out across open tabs over WebSockets, invitation/activation &amp; self-service reset flows, admin-console search, and a responsive console for phone → desktop.</p>
       <p>
         <img src="https://img.shields.io/badge/Django%20REST-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
         <img src="https://img.shields.io/badge/Channels%20%2F%20WebSocket-333?style=flat-square" alt="Channels"/>
@@ -160,13 +158,12 @@ Software Developer at **Agrileaf** — building real-time computer vision system
   <tr>
     <td valign="top" width="50%">
       <h3>🏭 AGRI-OS</h3>
-      <p>Inventory &amp; warehouse ERP for a palm leaf plate, veneer plate, wooden tray and plastic lid manufacturer. Orders, purchase orders, purchase invoices, stock ledger, warehouse issue/return/verification queues, packing and dispatch across 10 roles. Built-in AI assistant <b>AIRA</b> answers natural-language factory queries and prefills purchase invoices from PDFs/images. Excel/PDF document export, Dockerized with GHCR images and DigitalOcean deploy.</p>
+      <p>Inventory &amp; warehouse ERP for a manufacturing business. Orders, purchase orders, purchase invoices, stock ledger, warehouse issue/return/verification queues, packing and dispatch with role-based access. Built-in AI assistant <b>AIRA</b> answers natural-language factory queries and prefills purchase invoices from PDFs/images. Excel/PDF document export, Dockerized with CI-built images.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
         <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript"/>
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
-        <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=flat-square&logo=digitalocean&logoColor=white" alt="DigitalOcean"/>
       </p>
     </td>
     <td valign="top" width="50%">
@@ -179,6 +176,21 @@ Software Developer at **Agrileaf** — building real-time computer vision system
         <img src="https://img.shields.io/badge/Flask-000?style=flat-square&logo=flask&logoColor=white" alt="Flask"/>
       </p>
     </td>
+  </tr>
+  <tr>
+    <td valign="top" width="50%">
+      <h3>📱 QR Marketing Platform</h3>
+      <p>Restaurants get printed QR codes on Agrileaf packaging; customers scan to see the live offer, staff redeem at the counter (phone camera or typed code), and managers see what works. Restaurant, offer and QR batch management (PNG/ZIP), analytics dashboards, reports with CSV / Excel / PDF export and scheduled email delivery, activity log, role-based access control, and production monitoring. Shipped as v1.0.0 production release.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Django%20REST-092E20?style=flat-square&logo=django&logoColor=white" alt="Django"/>
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+        <img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
+        <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" alt="Prometheus"/>
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker"/>
+      </p>
+    </td>
+    <td valign="top" width="50%"></td>
   </tr>
 </table>
 
@@ -216,8 +228,8 @@ Software Developer at **Agrileaf** — building real-time computer vision system
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=for-the-badge&logo=espressif&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Caddy](https://img.shields.io/badge/Caddy-1F88C0?style=for-the-badge&logo=caddy&logoColor=white)
-![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
 ---
 
@@ -238,8 +250,8 @@ Software Developer at **Agrileaf** — building real-time computer vision system
 ## 📬 Get in Touch
 
 <div align="center">
-  <a href="mailto:agrileaf.sanjay@gmail.com">
-    <img src="https://img.shields.io/badge/Get%20in%20Touch-sanjay%40agrileaf.in-0d1117?style=for-the-badge&logo=gmail&logoColor=00bcd4" alt="Email"/>
+  <a href="mailto:sanjay.joshi@agrileaf.in">
+    <img src="https://img.shields.io/badge/Get%20in%20Touch-sanjay.joshi%40agrileaf.in-0d1117?style=for-the-badge&logo=gmail&logoColor=00bcd4" alt="Email"/>
   </a>
 </div>
 
